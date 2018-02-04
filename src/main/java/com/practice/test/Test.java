@@ -11,6 +11,7 @@ public class Test {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("applicationContext.xml");
 		RegisterBean registerBean=(RegisterBean)ctx.getBean("rb");
 		registerBean.showData();
+		
 	}
 
 }
