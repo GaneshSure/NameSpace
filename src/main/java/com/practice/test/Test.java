@@ -10,6 +10,7 @@ public class Test {
 	public static void main(String[] args) {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("applicationContext.xml");
 		RegisterBean registerBean=(RegisterBean)ctx.getBean("rb");
+		//display the showdata method sop statements
 		registerBean.showData();
 		
 	}
